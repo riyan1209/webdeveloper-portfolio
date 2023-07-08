@@ -1,4 +1,9 @@
+
+
+
 /* Common shared style */
+
+
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -59,15 +64,71 @@ nav a{
 }
 
 .banner{
-    margin: 0px 100px 0px 60px;
+    /* margin: 0px 100px 0px 60px; */
     display: flex;
+    background-image: url(../images/header_bg.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 56px;
+    margin-left: 45px;
+
 }
 
 .banner .profile-picture{
     width: 300px;
+    margin-left: 450px;
+    margin-bottom: 58px;
+    
+    
 }
 
 .banner-content{
     
     justify-content: space-between;
+}
+
+.banner-greetings{
+    font-size: 30px;
+    
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+
+.banner-title{
+    font-size: 60px;
+font-style: normal;
+font-weight: 700;
+
+margin-top: 0px;
+margin-bottom: 20px;
+}
+
+/* about section style */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #fff8f3;
+}
+
+.section-title{
+    color:#181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.section-description{
+    color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
