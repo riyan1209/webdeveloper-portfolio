@@ -130,9 +130,29 @@ nav a{
 
 /* Main section Styles */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about{
     padding: 130px;
     border-radius: 10px;
     background-color: #fff8fc;
     margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    text-align: center;
+    color: #757575;
+}
+
+.info-descripton{
+    color: #474747;
+    margin: -18px;
 }
