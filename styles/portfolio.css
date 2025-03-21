@@ -156,3 +156,21 @@ main{
     color: #474747;
     margin: -18px;
 }
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+}
+
+.skills{
+    padding: 60px;
+    gap: 24px;
+    
+}
+
+.skills-description{
+    color: #757575;
+}
